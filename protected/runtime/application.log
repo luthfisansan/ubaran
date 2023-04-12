@@ -1,0 +1,93 @@
+2023/04/11 02:23:45 [error] [exception.CException] CException: Alias "Obat.php" is invalid. Make sure it points to an existing directory or file. in C:\xampp\htdocs\yii-1.1.28.23448d\framework\YiiBase.php:355
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\generators\crud\CrudCode.php(59): YiiBase::import('Obat.php', true)
+#1 C:\xampp\htdocs\yii-1.1.28.23448d\framework\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 C:\xampp\htdocs\yii-1.1.28.23448d\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#3 C:\xampp\htdocs\yii-1.1.28.23448d\framework\base\CModel.php(159): CValidator->validate(Object(CrudCode), Array)
+#4 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#12 C:\xampp\htdocs\yii-1.1.28.23448d\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesdei\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesdei/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/tesdei/index.php?r=gii/crud/index
+---
+2023/04/11 02:24:54 [error] [exception.CException] CException: Alias "models.Obat.php" is invalid. Make sure it points to an existing directory or file. in C:\xampp\htdocs\yii-1.1.28.23448d\framework\YiiBase.php:355
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\generators\crud\CrudCode.php(59): YiiBase::import('models.Obat.php', true)
+#1 C:\xampp\htdocs\yii-1.1.28.23448d\framework\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 C:\xampp\htdocs\yii-1.1.28.23448d\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#3 C:\xampp\htdocs\yii-1.1.28.23448d\framework\base\CModel.php(159): CValidator->validate(Object(CrudCode), Array)
+#4 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#12 C:\xampp\htdocs\yii-1.1.28.23448d\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesdei\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesdei/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/tesdei/index.php?r=gii/crud/index
+---
+2023/04/11 02:27:01 [error] [exception.CException] CException: Alias "protected.models.Obat.php" is invalid. Make sure it points to an existing directory or file. in C:\xampp\htdocs\yii-1.1.28.23448d\framework\YiiBase.php:355
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\generators\crud\CrudCode.php(59): YiiBase::import('protected.model...', true)
+#1 C:\xampp\htdocs\yii-1.1.28.23448d\framework\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 C:\xampp\htdocs\yii-1.1.28.23448d\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#3 C:\xampp\htdocs\yii-1.1.28.23448d\framework\base\CModel.php(159): CValidator->validate(Object(CrudCode), Array)
+#4 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp\htdocs\yii-1.1.28.23448d\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#12 C:\xampp\htdocs\yii-1.1.28.23448d\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesdei\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesdei/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/tesdei/index.php?r=gii/crud/index
+---
+2023/04/11 02:40:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`transaksi`, CONSTRAINT `fk_transaksi_pasien` FOREIGN KEY (`pasien_id`) REFERENCES `pasien` (`id`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `transaksi` (`pasien_id`, `tindakan_id`, `obat_id`, `jumlah`, `total_harga`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\tesdei\protected\controllers\protected\controllers\TransaksiController.php (73)
+in C:\xampp\htdocs\tesdei\index.php (13)
+2023/04/11 02:40:06 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`klinik`.`transaksi`, CONSTRAINT `fk_transaksi_pasien` FOREIGN KEY (`pasien_id`) REFERENCES `pasien` (`id`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `transaksi` (`pasien_id`, `tindakan_id`, `obat_id`, `jumlah`, `total_harga`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in C:\xampp\htdocs\yii-1.1.28.23448d\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.28.23448d\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii-1.1.28.23448d\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\tesdei\protected\controllers\protected\controllers\TransaksiController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\actions\CInlineAction.php(49): TransaksiController->actionCreate()
+#4 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(141): CWebApplication->runController('protected/contr...')
+#14 C:\xampp\htdocs\yii-1.1.28.23448d\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesdei\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tesdei/index.php?r=protected/controllers/transaksi/create
+HTTP_REFERER=http://localhost/tesdei/index.php?r=protected/controllers/transaksi/create
+---
+2023/04/11 02:40:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "protected/controllers/wilayai/create". in C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.28.23448d\framework\web\CWebApplication.php(141): CWebApplication->runController('protected/contr...')
+#1 C:\xampp\htdocs\yii-1.1.28.23448d\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tesdei\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tesdei/index.php?r=protected/controllers/wilayai/create
+---
